@@ -13,9 +13,6 @@ Coroutines	Ağ ve veritabanı işlemleri gibi zaman alan işlemlerde asenkron ç
 ViewBinding	Arayüz bileşenlerine güvenli ve doğrudan erişim
 
 📱 Özellikler
-🔐 Firebase ile kullanıcı girişi ve kayıt sistemi
-
-🍽️ Yemekleri kategori bazlı gezebilme ve detaylarını görüntüleme
 
 🔍 İsimle yemek araması yapabilme
 
@@ -23,9 +20,6 @@ ViewBinding	Arayüz bileşenlerine güvenli ve doğrudan erişim
 
 🛒 Sepete yemek ekleyip silebilme
 
-📦 Sipariş verme ve geçmiş siparişleri görüntüleme
-
-🌓 Opsiyonel olarak açık ve koyu tema desteği
 
 
 
