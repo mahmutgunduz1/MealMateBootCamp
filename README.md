@@ -1,52 +1,32 @@
-# 🍽️ Food Ordering App
+🍽️ Kotlin Food Delivery App
+Modern Android teknolojileriyle geliştirilen, şık ve kullanıcı dostu bir yemek siparişi uygulaması. Kullanıcılar uygulama üzerinden yemekleri görüntüleyebilir, favorilere ekleyebilir, sepete ürün atabilir ve sipariş verebilir.
 
-A modern food ordering application built using **Kotlin** for Android. This project provides a clean, fast, and intuitive user experience for browsing meals, adding favorites, and placing orders.
+🚀 Kullanılan Teknolojiler
+Teknoloji	Açıklama
+MVVM	İş mantığını arayüzden ayıran temiz mimari yapısı
+Room Database	Yerel veritabanı ile favoriler ve sepet gibi verilerin saklanması
+Retrofit	RESTful API’lerle iletişim için kullanılan HTTP istemcisi
+Hilt	Bağımlılık enjeksiyonu ile sınıflar arası bağlantıların yönetimi
+LiveData	Veri değişimlerini gözlemleyerek arayüzün otomatik güncellenmesi
+ViewModel	Arayüzle ilişkili verilerin yaşam döngüsüne duyarlı şekilde yönetimi
+Coroutines	Ağ ve veritabanı işlemleri gibi zaman alan işlemlerde asenkron çalışma
+ViewBinding	Arayüz bileşenlerine güvenli ve doğrudan erişim
 
----
+📱 Özellikler
+🔐 Firebase ile kullanıcı girişi ve kayıt sistemi
 
-## 🚀 Technologies Used
+🍽️ Yemekleri kategori bazlı gezebilme ve detaylarını görüntüleme
 
-| Technology       | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| **MVVM**         | Clean architecture separating business logic from UI                        |
-| **Room Database**| Local data storage (favorites, cart, etc.)                                  |
-| **Retrofit**     | Networking library to communicate with RESTful APIs                         |
-| **Hilt**         | Dependency injection to manage class instances                              |
-| **LiveData**     | Observes data changes and updates UI reactively                             |
-| **ViewModel**    | Manages UI-related data in a lifecycle-aware way                            |
-| **Coroutines**   | Asynchronous operations like networking and database                        |
-| **ViewBinding**  | Type-safe access to UI components                                            |
+🔍 İsimle yemek araması yapabilme
 
----
+❤️ Favori yemekleri ekleyip çıkarabilme
 
-## 📱 Features
+🛒 Sepete yemek ekleyip silebilme
 
-- 🔐 Firebase Authentication (Login/Register)
-- 🍽️ Browse meals and view details
-- 🔍 Search meals by name
-- ❤️ Add/remove meals from favorites
-- 🛒 Add/remove meals to cart
-- 📦 Place and review orders
-- 🌓 Light & Dark theme support (optional)
+📦 Sipariş verme ve geçmiş siparişleri görüntüleme
 
----
+🌓 Opsiyonel olarak açık ve koyu tema desteği
 
-## 🖼️ Screenshots
-
-### 🏠 Home Screen
-![Home](app/src/main/java/com/example/bitirmeprojesi/screnshoots/Anasayfa.png)
-
-### 🔍 Search Screen
-![Search](app/src/main/java/com/example/bitirmeprojesi/screnshoots/Arama.png)
-
-### 📋 Detail Screen
-![Detail](app/src/main/java/com/example/bitirmeprojesi/screnshoots/Detay.png)
-
-### ❤️ Favorites
-![Favorites](app/src/main/java/com/example/bitirmeprojesi/screnshoots/Favoriler.png)
-
-### 🛒 Cart
-![Cart](app/src/main/java/com/example/bitirmeprojesi/screnshoots/Sepet.png)
 
 
 ---
